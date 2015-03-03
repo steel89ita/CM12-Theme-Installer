@@ -7,5 +7,10 @@
      <color name="red_pressed">#1aeb5b61</color>     
      <color name="dark_grey">#ff4d4d4d</color>
      <color name="preview_bg">#ff0097a7</color> 
-     <color name="bottom_bg">#ff35454d</color>                            
+     <color name="bottom_bg">#ff35454d</color>
+
+
+    <color name="primary_main">#ff01678d</color>
+    <color name="primary_main_dark">#ff015473</color>
+
 </resources>

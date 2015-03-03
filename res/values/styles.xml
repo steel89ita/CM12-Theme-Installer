@@ -1,28 +1,14 @@
 <resources>
-    <style name="ThemeInstaller" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:windowTranslucentStatus">true</item>        
+    <style name="ThemeInstaller" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarSize">72dp</item>
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
-        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back_mtrl_am_alpha</item>
-		<item name="android:actionBarWidgetTheme">@style/PopupMenu</item>
-        <item name="android:actionOverflowButtonStyle">@style/ThemeInstaller.ActionBarOverflow</item>			                     
+        <item name="android:colorPrimary">@color/primary_main</item>
+        <item name="android:colorPrimaryDark">@color/primary_main_dark</item>
+        <item name="android:colorAccent">@color/primary_main</item>
     </style>
-    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
-        <item name="android:background">@color/ab_theme</item> 
-        <item name="android:icon">@android:color/transparent</item>
-        <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item>                               
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/primary_main</item>
+        <item name="android:elevation">6dp</item>
     </style>
-    <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Medium">
-        <item name="android:textSize">20.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:textStyle">normal</item>		
-    </style>
-	<style name="PopupMenu" parent="@android:style/Theme.Holo.Light">
-    	<item name="android:popupMenuStyle">@style/ThemeInstaller.PopupMenu</item>
-	</style>     
-    <style name="ThemeInstaller.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
-    </style>
-    <style name="ThemeInstaller.ActionBarOverflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_menu_moreoverflow_normal_holo_dark</item>
-    </style>                          
+
 </resources>

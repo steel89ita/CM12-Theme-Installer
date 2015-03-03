@@ -6,6 +6,8 @@
 
     <string name="share_title">Share</string>
     <string name="email_title">Email</string>
+    <string name="email_subject">CM12 Theme Feedback</string>
+    <string name="email_address">info.steeldesigns@gmail.com</string>
     <string name="rate_title">Rate</string>
 
     <string name="share_link">link_here</string>
